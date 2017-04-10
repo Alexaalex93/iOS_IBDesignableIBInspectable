@@ -12,6 +12,8 @@
 		09393EF51E9B837800E5799B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09393EF31E9B837800E5799B /* Main.storyboard */; };
 		09393EF71E9B837800E5799B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09393EF61E9B837800E5799B /* Assets.xcassets */; };
 		09393EFA1E9B837800E5799B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09393EF81E9B837800E5799B /* LaunchScreen.storyboard */; };
+		09393F041E9B851D00E5799B /* RoundedCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09393F031E9B851D00E5799B /* RoundedCornerButton.swift */; };
+		09393F061E9B879F00E5799B /* BotonMolon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09393F051E9B879F00E5799B /* BotonMolon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		09393EF61E9B837800E5799B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09393EF91E9B837800E5799B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09393EFB1E9B837800E5799B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09393F031E9B851D00E5799B /* RoundedCornerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerButton.swift; sourceTree = "<group>"; };
+		09393F051E9B879F00E5799B /* BotonMolon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotonMolon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				09393EEF1E9B837800E5799B /* AppDelegate.swift */,
 				09393EF11E9B837800E5799B /* ViewController.swift */,
+				09393F031E9B851D00E5799B /* RoundedCornerButton.swift */,
+				09393F051E9B879F00E5799B /* BotonMolon.swift */,
 				09393EF31E9B837800E5799B /* Main.storyboard */,
 				09393EF61E9B837800E5799B /* Assets.xcassets */,
 				09393EF81E9B837800E5799B /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09393F041E9B851D00E5799B /* RoundedCornerButton.swift in Sources */,
 				09393EF21E9B837800E5799B /* ViewController.swift in Sources */,
+				09393F061E9B879F00E5799B /* BotonMolon.swift in Sources */,
 				09393EF01E9B837800E5799B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
